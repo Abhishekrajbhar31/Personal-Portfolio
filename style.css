@@ -292,3 +292,48 @@ body {
         pointer-events: auto;
     }
 }
+
+.project-container {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 160px;
+    
+}
+.card-img-top{
+    border: 3px solid rgb(16, 8, 8);
+    border-radius: 50%;
+    margin-left: 14px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px black;
+}
+
+.card-title {
+    font-size: 20px;
+    padding: 5px;
+    font-family:'IBM Plex Mono', monospace;
+    text-align: center;
+}
+
+.card-body{
+    border: 1px solid black;
+}
+
+.card-text {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
